@@ -279,6 +279,8 @@ summary:focus-visible {
 
 .mobile-menu .btn {
   margin-top: 12px;
+  /* keeps the button text white: .mobile-menu a is more specific than .btn */
+  color: #fff;
 }
 
 @media (max-width: 900px) {
